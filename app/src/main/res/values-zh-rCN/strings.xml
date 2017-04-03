@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="prefscreen_category_authentication_title">设置</string>
+    <string name="prefscreen_category_about_title">关于</string>
+
+    <!-- Authentication strings -->
+    <string name="prefscreen_api_key_title">API 密钥</string>
+    <string name="prefscreen_api_key_summary">你的私有 API 密钥来访问 %1$s 的天气数据</string>
+    <string name="prefscreen_create_key_title">创建账户</string>
+    <string name="prefscreen_create_key_summary">创建一个账户并获得 API 密钥</string>
+    <string name="api_key_not_set_message">你必须设置一个私有 API 密钥来使用 %1$s</string>
+    <string name="api_key_changed_verification_warning">你的 API 密钥将在下一次更新天气时进行验证</string>
+
+    <string name="api_key_state_verified">已验证</string>
+    <string name="api_key_state_invalid">无效</string>
+    <string name="api_key_state_pending_verification">待验证</string>
+
+    <!-- Copyright and disclaimers -->
+    <string name="prefscreen_copyright_title">Copyright</string>
+    <string name="prefscreen_copyright_summary">此应用仅用于提供通用信息</string>
+</resources>
