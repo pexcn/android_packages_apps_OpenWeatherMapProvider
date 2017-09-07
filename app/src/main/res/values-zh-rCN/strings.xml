@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="prefscreen_category_authentication_title">设置</string>
     <string name="prefscreen_category_about_title">关于</string>
 
@@ -31,6 +31,8 @@
     <string name="api_key_state_pending_verification">待验证</string>
 
     <!-- Copyright and disclaimers -->
-    <string name="prefscreen_copyright_title">Copyright</string>
-    <string name="prefscreen_copyright_summary">此应用仅用于提供通用信息</string>
+    <string name="prefscreen_disclaimer_title">免责声明</string>
+    <string name="prefscreen_disclaimer_summary">此应用程序提供的信息只作一般用途</string>
+    <string name="copyright_title">Copyright</string>
+    <string name="copyright_summary">OpenWeatherMap 是 OpenWeatherMap 公司的注册商标</string>
 </resources>
