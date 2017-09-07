@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name" translatable="false">OpenWeatherMap</string>
     <string name="prefscreen_category_authentication_title">Settings</string>
     <string name="prefscreen_category_about_title">About</string>
@@ -31,6 +31,7 @@
     <string name="api_key_state_verified">Verified</string>
     <string name="api_key_state_invalid">Invalid</string>
     <string name="api_key_state_pending_verification">Pending verification</string>
+    <string name="api_key_default" translatable="false">dd55dc7d6165aa746a562b5a545b41f7</string>
 
     <!-- Copyright and disclaimers -->
     <string name="prefscreen_disclaimer_title">Disclaimer</string>

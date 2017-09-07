@@ -15,30 +15,31 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory
-        android:title="@string/prefscreen_category_authentication_title">
+    <PreferenceCategory android:title="@string/prefscreen_category_authentication_title">
         <EditTextPreference
+            android:defaultValue="@string/api_key_default"
+            android:dialogTitle="@string/prefscreen_api_key_title"
             android:key="api_key"
-            android:title="@string/prefscreen_api_key_title"
             android:summary="@string/prefscreen_api_key_summary"
-            android:dialogTitle="@string/prefscreen_api_key_title"/>
+            android:title="@string/prefscreen_api_key_title" />
         <PreferenceScreen
             android:key="create_key"
-            android:title="@string/prefscreen_create_key_title"
-            android:summary="@string/prefscreen_create_key_summary">
-
-            <intent android:action="android.intent.action.VIEW"
+            android:summary="@string/prefscreen_create_key_summary"
+            android:title="@string/prefscreen_create_key_title">
+            <intent
+                android:action="android.intent.action.VIEW"
                 android:data="https://home.openweathermap.org/users/sign_up" />
         </PreferenceScreen>
     </PreferenceCategory>
+
     <PreferenceCategory android:title="@string/prefscreen_category_about_title">
         <Preference
             android:key="disclaimer"
             android:persistent="false"
-            android:title="@string/prefscreen_disclaimer_title"
-            android:summary="@string/prefscreen_disclaimer_summary"/>
+            android:summary="@string/prefscreen_disclaimer_summary"
+            android:title="@string/prefscreen_disclaimer_title" />
         <Preference
-            android:title="@string/copyright_title"
-            android:summary="@string/copyright_summary" />
+            android:summary="@string/copyright_summary"
+            android:title="@string/copyright_title" />
     </PreferenceCategory>
 </PreferenceScreen>
